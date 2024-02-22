@@ -1,0 +1,315 @@
+﻿.HOME{
+	font-size:50px;
+	font-style:bold;
+	text-align:center;
+}
+ ul.menulingue{
+		margin: 0;
+        padding: 0;
+        }
+li.menulingue {
+		display:inline-block;
+		font-family:Century Gothic;
+		text-align:center;
+        }
+a.menulingue {
+        display: block;
+        padding: 10px 20px;
+        color: white;
+        text-decoration: none;
+		background-color: #fff;
+		color: rgb(0, 55, 108);
+		display: inline-block;
+		padding: 0.8rem 1.5rem;
+		transition: background-color 0.3s ease;
+		text-decoration: none;
+		font-size:20px;
+		font-family:Century Gothic;
+        }
+
+/* Stile per il sotto-menu */
+ul ul.menulingue {
+        display: none;
+        background-color: white;
+        border-top: 1px solid #fff;
+        }
+ul li:hover > ul.menulingue {
+        display: inherit;
+        }
+img.home {
+    border: 3px solid #ff5733; 
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(255, 87, 51, 0.5); 
+}
+
+.feature1 {
+  position: relative;
+}
+
+.feature1 h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.feature1 p {
+  margin: 5px 0;
+}
+
+
+.cta {
+  background-color: #fff;
+  color: rgb(0, 55, 108);
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.cta:hover {
+  background-color: rgb(255, 215, 86);
+  color: rgb(0, 55, 108);
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(0, 55, 108);
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin: 1rem 0;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  margin-left:35px;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #fff;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature2 {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid black;
+  padding: 10px 10px;
+  
+}
+
+h1 {
+	font-family: Century Gothic;
+	color: white;
+	font-size: 80px;
+	text-align:center;
+}
+
+.title{
+	background-image:url("../img/cieloM.PNG");
+	height:220px;
+}
+
+li.menu {
+		display:inline-block;
+		list-style-type: none;
+		padding-left: 15px;
+	 	font-size:27px;
+		font-family:Century Gothic;
+		text-align:center;
+}
+
+.menus {
+		display:inline-block;
+		list-style-type: none;
+		padding-left: 15px;
+		color:white;
+		border-radius:5px;
+	 	font-size:27px;
+		font-family:Century Gothic;
+		text-align:center;
+		background-image: url("../img/menu.PNG") ;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color:rgb(0, 77, 153) ;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 77, 153);
+  text-decoration: underline;
+}
+
+a:active {
+  color: blak;
+  text-decoration: underline;
+}
+
+.testo {
+	width:70%;
+	margin-left:15%;
+	background-color: white;
+}
+
+.sfondo {
+	background-image:url("../img/sfondo2.jpg");
+}
+.sfondo2{
+	background-image:url("../img/sfondo5.png");
+}
+h2 {
+	font-family:Century Gothic;
+	font-size:32px;
+	color: rgb(0, 77, 153);
+}
+
+p {
+	font-family:Century Gothic;
+	font-size:22px;
+	color: black;
+	position: relative;
+	left:20px;
+	right: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 3px;
+  background-color:rgb(0, 77, 153);
+  color:white;
+  font-family:Century Gothic;
+  font-size: 22px;
+  width:100%
+}
+
+ .menu {
+	 background-color: white;
+	 size: 10 px;
+	 text-align:center;
+ }
+
+ 
+
+ /*menu per le lingue*/
+ .mondo{
+	 position: fixed;
+	 top: 10px;
+	 left:10px;
+ }
+ .mondoim{
+	
+	 height:50px;
+ }
+ .dropbtn {
+  background-color:white;
+  padding:10px;
+  font-size: 12px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 210px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16x;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+.bandiera{
+	height:18px;
+}
+
+/*foto*/
+.foto1{
+	display:inline-block;
+	width:22%;
+	margin-left:35px;
+}
+.foto2	{
+	display:inline-block;
+	width:17%;
+}
+.foto3{
+	display:inline-block;
+	height:250px;
+}
+.foto4{
+	display:inline-block;
+	width:18%;
+}
+.foto5 {
+	margin-left:40px;
+	display:inline-block;
+	height:300px;
+}
+.classe{
+	width:95%;
+	margin-left:2.5%
+}
+.classee{
+	width:95%;
+}
+
+.tempo{
+	width:85%;
+	margin-left:10%;
+}
+.tempo2{
+	width:85%;
+	margin-left:10%;
+}
+
+
+.foo{
+	margin-left:14px;
+	width:49%;
+	text-align:left;
+	display:inline-block;
+}
+.cita {
+	display: inline-block;
+	width: 49%;
+}
